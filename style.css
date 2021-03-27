@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    width: 600px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 2px;
+    color: white;
+    background: red;
+    margin: 10px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
